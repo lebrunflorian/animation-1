@@ -12,16 +12,16 @@ import About from "./pages/about";
 import Home from "./pages/home";
 
 const routes = [
-  { path: "/", name: "Home", Component: Home },
   { path: "/animation-1/", name: "Home", Component: Home },
   {
-    path: "//case-studies",
+    path: "/animation-1/case-studies",
     name: "caseStudies",
     Component: CaseStudies,
   },
-  { path: "/approach", name: "approach", Component: Approach },
-  { path: "/services", name: "services", Component: Services },
-  { path: "/about-us", name: "about", Component: About },
+  { path: "/animation-1/approach", name: "approach", Component: Approach },
+  { path: "/animation-1/services", name: "services", Component: Services },
+  { path: "/animation-1/audit", name: "services", Component: Services },
+  { path: "/animation-1/about-us", name: "about", Component: About },
 ];
 
 function debounce(fn, ms) {
