@@ -1,0 +1,29 @@
+.contact {
+  background-image: url(../../assets/contact.jpg);
+  background-size: cover;
+  height: 100vh;
+
+  .inner {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      display: inline-block;
+      background-color: #fff;
+      padding: 5px 10px;
+      margin: 0 5px 5px 0;
+      color: #444;
+      opacity: 1;
+    }
+
+    ul {
+      display: block;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
